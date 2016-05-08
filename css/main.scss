@@ -1,0 +1,186 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+
+* {margin: 0; padding: 0;}
+html, body{height: 100%;}
+
+/** Formata elementos que tem background parallax **/
+
+.bgParallax {
+	color: #FFF;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 100%;
+	text-shadow: 0 0 10px rgba(0,0,0,0.7);
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+/** Define backgrounds dos divs **/
+#mhblog {background-image: url('../img/coding.jpg');}
+
+
+.bgParallax article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+}
+
+article h1 {font-size:40px;}
+article p {line-height: 30px; font-size:20px; margin-top:15px;}
+article p a {color:#FFF; text-decoration:none; font-size:30px;}
+
+
+.post-block h2{
+	font-family: 'Roboto', sans-serif;
+	margin: 50px;
+	font-size: 3.5em;
+	color: #ff9100;
+}
+
+.post-block p {
+	font-family: 'Roboto', sans-serif;
+	color: #424242;
+	font-size: 1.8em;
+	line-height: 1.2;
+}
+
+
+box-item{-webkit-flex:1 0 300px;-ms-flex:1 0 300px;flex:1 0 300px;margin:0 .938rem 3.125rem;display:inline-block;border:1px solid #eee;border-radius:5px;min-height:17.813rem;transition:all .3s;position:relative;}
+
+
+.card-panel{
+  padding: 0px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.card-panel:hover {
+   -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-box-shadow: 1px 1px 23px 0px rgba(41, 51, 53, 0.7);
+-moz-box-shadow:    1px 1px 23px 0px rgba(41, 51, 53, 0.7);
+box-shadow:         1px 1px 23px 0px rgba(41, 51, 53, 0.7);
+}
+
+
+.img-post{
+  margin-bottom: 0px;
+}
+
+.descricao-post{
+  font-size: 1.1em;
+
+}
+
+.descripton-card{
+  padding: 15px 0px 15px 5px !important;
+}
+
+.row-card {
+  margin-bottom: 0px !important;
+}
+
+.list-post-date{
+  margin-bottom: 0px !important;
+}
+.titulo-post{
+  color: #0d47a1;
+  font-size: 1.5em;
+}
+
+
+.links-rodape{
+	text-align: right;
+}
+
+.title-logo{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.img-footer{
+  padding: 0px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+	
+}
+
+.img-footer:hover{
+
+ -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.links-footer{
+	padding: 0px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.links.footer:hover{
+	-webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+#title-rodape{
+	color: #828282;
+}

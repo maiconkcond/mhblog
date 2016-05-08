@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<div id="mhblog" class="bgParallax" data-speed="15">
+	<article>
+		<h1>Blog pessoal para estudos</h1>
+		<p>&lt;Devido a dificuldade de memorizar tudo que se aprende e com a vasta quantidade de conteúdo resolvi criar esse local para armazenar minhas anotações sobre meus estudos. A príncipio a ideia do blog é auxiliar-me, e os itens postados aqui não tem intuido de ser material didático para ensinar uma outra pessoa, até porque como eu disse sou um aprendiz, porém fiquem a vontade. / &gt; </p>
+	</article>
+</div>
+
+
+
+
+<div class="container">
+	<div class="row text-center post-block">
+		<h2>Conteúdo</h2>
+		<p>Todo o conteúdo do blog está disponível abaixo, caso preferir você pode pesquisar por um nome específico ou buscar posts por categoria especifica.</p>
+		<div class="jumbotron">
+			<div class="col-md-6">
+				<form>
+					<div class="form-group">
+						<input type="email" class="form-control" id="search" placeholder="Palavra-chave">
+					</div>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<select class="form-control">
+					<option>Escolha uma categoria</option>
+					<option>HTML</option>
+					<option>CSS</option>
+					<option>JavaScrip</option>
+					<option>Ruby</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		{% if site.posts.size == 0 %}
+		<h2>No posts found =(</h2>
+		{% else %}
+
+		{% for post in site.posts %}
+
+
+
+		<div class="col-md-6 box-item ">
+		<a href="{{ post.url | prepend: site.baseurl }}" class="posts" name="posts">
+				<div class="card-panel">
+					<div class="row row-card">
+						<div class="col-md-4">
+							<img class="responsive-img img-post img-thumbnail" src="{{ post.image }}"/>
+						</div>
+						<div class="col-md-8 descripton-card">
+							<h4 class="titulo-post">{{ post.title }}</h4>
+							<p class="descricao-post">{{ post.descripton }}</p>
+
+							<div class="list-post-date">
+								<time>{{ post.date | date_to_string }}</time>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+
+
+		{% endfor %}
+		{% endif %}
+
+	</div>
+</div>
+
+
+<!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript"> // fallback para JQuery
+	//<![CDATA[
+	(Window.jQuery)||document.write('script type="text/javascritp"
+		src="../bootstrap/js/jquery.min.js"><\/script>');//]]>
+	</script>
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
