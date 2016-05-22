@@ -2,7 +2,7 @@
 title: Meu primeiro CRUD com CodeIgniter [parte 1]
 layout: post
 categories: codeigniter
-image: "img/ci_logo_flame.png"
+image: "img/img-codeigniter.png"
 descripton: "Estrutura e configurações necessárias"
 ---
 
@@ -160,9 +160,9 @@ O array $dados armazena o titulo da página e o nome da tela que será carregada
 
 Por hoje é só, esse é o primeiro post da sequência, acesse os outros abaixo:
 
-- [Cadastro (CRUD) - Parte2 ]({{% post_url 2016-05-21-primeiro-crud-com-codeigniter-part2 %}}){:class="links_post"} <br>
-- [Lista (CRUD) - Parte3 ](#){:class="links_post"} <br>
-- [Atualizar (CRUD) - Parte4 ](#){:class="links_post"} <br>
-- [Apagar (CRUD) - Parte5 ](#){:class="links_post"}
+- [Cadastro (CRUD) - Parte2 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part2 %}){:class="links_post"} <br>
+- [Lista (CRUD) - Parte3 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part3 %}){:class="links_post"} <br>
+- [Atualizar (CRUD) - Parte4 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part4 %}){:class="links_post"} <br>
+- [Apagar (CRUD) - Parte5 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part5 %}){:class="links_post"}
 
 Lembrando que para melhor entendimento vale muito a pena ver os videos no [RBTech](https://www.youtube.com/watch?v=1XnfWac0U14&list=PLInBAd9OZCzz2vtRFDwum0OyUmJg8UqDV){:target="_blank"}.

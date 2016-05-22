@@ -2,7 +2,7 @@
 title: Meu primeiro CRUD com CodeIgniter [parte 2]
 layout: post
 categories: codeigniter
-image: "img/ci_logo_flame.png"
+image: "img/img-codeigniter.png"
 descripton: "Criando o Cadastro do CRUD"
 ---
 
@@ -115,8 +115,8 @@ Já no model `CRUD_MODEL` será validado se a variável com os dados vieram nulo
 Até esse ponto já temos o cadastro funcionando, fazendo as devidas validações e inserindo no banco. Por hoje ficamos por aqui e no próximo post será mostrado o `listar` que você pode acessar abaixo:
 
 - [Estrutura e configurações necessárias - Parte1 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part1 %}){:class="links_post"} <br>
-- [Lista (CRUD) - Parte3 ](#){:class="links_post"} <br>
-- [Atualizar (CRUD) - Parte4 ](#){:class="links_post"} <br>
-- [Apagar (CRUD) - Parte5 ](#){:class="links_post"}
+- [Lista (CRUD) - Parte3 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part3 %}){:class="links_post"} <br>
+- [Atualizar (CRUD) - Parte4 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part4 %}){:class="links_post"} <br>
+- [Apagar (CRUD) - Parte5 ]({% post_url 2016-05-21-primeiro-crud-com-codeigniter-part5 %}){:class="links_post"}
 
 Lembrando que para melhor entendimento vale muito a pena ver os videos no [RBTech](https://www.youtube.com/watch?v=1XnfWac0U14&list=PLInBAd9OZCzz2vtRFDwum0OyUmJg8UqDV){:target="_blank"}.
