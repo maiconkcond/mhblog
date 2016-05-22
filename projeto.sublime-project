@@ -1,0 +1,19 @@
+{
+	"folders": 
+	[
+		{
+			"path": "C:/Users/Maicon/Documents/PROJETOS/mhblog"
+		}
+	],
+
+	"settings":
+{
+    "Jekyll":
+    {
+        "jekyll_posts_path": "C:/Users/Maicon/Documents/PROJETOS/mhblog/_posts",
+        "jekyll_drafts_path": "C:/Users/Maicon/Documents/PROJETOS/mhblog/_drafts",
+        "jekyll_uploads_path": "C:/Users/Maicon/Documents/PROJETOS/mhblog/uploads",
+        "jekyll_datetime_format": "%Y-%m-%d %H:%M:%S"
+    }
+}
+}

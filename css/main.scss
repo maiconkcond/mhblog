@@ -85,7 +85,6 @@ html, body{height: 100%;}
 
 article h1 {font-size:40px;}
 article p {line-height: 30px; font-size:20px; margin-top:15px;}
-article p a {color:#FFF; text-decoration:none; font-size:30px;}
 
 
 .post-block h2{
@@ -198,3 +197,52 @@ box-shadow:         1px 1px 23px 0px rgba(41, 51, 53, 0.7);
   background-position: 100% 0;
   background-attachment: fixed;
 }
+
+.post-header {
+  text-align: center;
+}
+
+
+.links_post{
+  font-size: 1em;
+  color: orange;
+
+}
+
+
+.header-paralax {
+    background-image: url('../img/texture-990104_1920.jpg');
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 600px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.header-paralax h1{
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 3px 1px #000;
+  font-weight: 900;
+  padding: 210px 0 0 0;
+  margin-top: 0px;
+  opacity: 1;
+}
+
+.header-paralax h3{
+  text-align: center;
+    color: #fff;
+  text-shadow: 2px 3px 1px #000;
+  font-weight: 900;
+  padding: 0 0 210px 0;
+  margin-top: 0px;
+  opacity: 1;
+}
+
+main {
+    background: #E7E3DA;
+    position: relative;
+    top: 600px;
+}
+
