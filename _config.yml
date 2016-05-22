@@ -9,8 +9,8 @@
 title: MHBlog
 email: maiconhenriquekcond@gmail.com
 description: "Blog para armazenar itens de estudos entre outras informações que possa facilitar o aprendizado."
-#baseurl: "/mhblog" # the subpath of your site, e.g. /blog
-baseurl: ""
+baseurl: "/mhblog" # the subpath of your site, e.g. /blog
+#baseurl: ""
 url: "http://maiconkcond.github.io/" # the base hostname & protocol for your site
 twitter_username: maiconhenriquekcond
 github_username:  maiconkcond
