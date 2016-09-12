@@ -20,12 +20,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span> 
             </button>  
-            <a class="navbar-brand title-logo" href="/">{ MH; }</a> 
+            <a class="navbar-brand title-logo" href="{{ page.url | prepend: site.baseurl }}">{ MH; }</a> 
           </div>
           <div class="collapse navbar-collapse" id="barraBasica"> 
             <ul class="nav navbar-nav">
-              <li><a href="/#posts">POSTS <span class="sr-only">(current)</span></a></li>
-              <li><a href="/estudos.html">ESTUDO / LINKS</a></li>
+              <li><a href="{{ "#posts" | prepend: site.baseurl }}">POSTS <span class="sr-only">{ MH; }</span></a></li>
+              <li><a href="{{ "/estudos.html" | prepend: site.baseurl }}">ESTUDO / LINKS</a></li>
               <li><a href="#">PORTFÓLIO</a></li>
               <li><a href="#">CONTATO</a></li>
             </ul> 
