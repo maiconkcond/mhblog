@@ -52,13 +52,19 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+@import 'https://fonts.googleapis.com/css?family=Londrina+Outline:400|Lato:700,400|Kelly+Slab:400';
 
 
 * {margin: 0; padding: 0;}
 html, body{height: 100%;}
 
-/** Formata elementos que tem background parallax **/
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
+/** Formata elementos que tem background parallax **/
+/**
 .bgParallax {
 	color: #FFF;
 	margin: 0 auto;
@@ -72,7 +78,43 @@ html, body{height: 100%;}
 	background-attachment: fixed;
 }
 
-#canvas-basic {
+.bgParallax article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+} **/
+
+.canvas-interactive-wrapper {
+   color: #FFF;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  min-height: 100%;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.canvas-interactive-wrapper .cta-wrapper {
+    margin-top: 130px;
+}
+
+.canvas-interactive-wrapper .cta-wrapper {
+    position: relative;
+    width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+    z-index: 1;
+    text-decoration: none;
+    color: #222;
+    transition: border .3s;
+}
+
+#canvas-radial {
     position: absolute;
     display: block;
     width: 100%;
@@ -83,19 +125,35 @@ html, body{height: 100%;}
     left: 0;
 }
 
-
 /** Define backgrounds dos divs **/
 #mhblog {background-image: url('../img/coding.jpg');}
 
-.bgParallax article {
-  width: 70%;
-  text-align: center;
-  margin:0 auto;
-  padding:20% 0 0;
-}
 
-article h1 {font-size:40px;}
-article p {line-height: 30px; font-size:20px; margin-top:15px;}
+
+article h1 {
+   font-family: "Londrina Outline", display;
+    font-size: 87px;
+    font-weight: 400;
+    line-height: 1.25;
+    opacity: 1.00;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: capitalize;
+}
+article p {
+ font-family: "Kelly Slab", display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.60;
+    opacity: 0.70;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: -0.30px;
+    word-spacing: -0.10px;
+    text-transform: none;
+}
 
 
 .post-block h2{
