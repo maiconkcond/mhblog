@@ -4,12 +4,10 @@ layout: default
 
 <!-- Imagem parallax -->
 <!--<div id="mhblog" class="bgParallax" data-speed="15"> -->
-<div class="canvas-interactive-wrapper">
-<canvas id="canvas-radial"></canvas>
-<div class="cta-wrapper">
+<div class="content-main">
+<div class="content-article">
 	<article>
-		<h1>MHBlog</h1>
-		<p>&lt;Devido a dificuldade de memorizar tudo que se aprende e com a vasta quantidade de conteúdo resolvi criar esse local para armazenar minhas anotações sobre meus estudos. A príncipio a ideia do blog é auxiliar-me, e os itens postados aqui não tem intuido de ser material didático para ensinar uma outra pessoa, até porque como eu disse sou um aprendiz, porém fiquem a vontade. / &gt; </p>
+	
 	</article>
 
 	    </div>
@@ -83,24 +81,3 @@ layout: default
 	</script>
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-	<script type="text/javascript" src="{{ "/js/granim.min.js" | prepend: site.baseurl }}"></script>
-
-
-	<script type="text/javascript">
-var granimInstance = new Granim({
-    element: '#canvas-radial',
-    name: 'radial-gradient',
-    direction: 'radial',
-    opacity: [1, 1],
-    isPausedWhenNotInView: true,
-    states : {
-        "default-state": {
-            gradients: [
-                ['#ffb347', '#ffcc33'],
-                ['#83a4d4', '#b6fbff'],
-                ['#9D50BB', '#6E48AA']
-            ]
-        }
-    }
-});
-	</script>
