@@ -1,23 +1,3 @@
-<h1 align="center">
-  <br>
-  <a href="">MH</a>
-  <br>
-  Desenvolvedor web & mobile
-  <br>
-</h1>
+`MhBlog` é um projeto realizado com objetivo academico. Com o proposito de aprender Jekyll, Markdown e Liquid e ter uma noçao de como criar um blog em um futuro proximo. 
 
-
-## Minha página Pessoal 
-
-Site simples criado por mim como forma de apresentação profissional onde conto um pouco sobre mim.
-
-Você irá encontrar:
-
-  * Descrição sobre mim
-  * Contato
-  * Currículo
-  * Ultimos projetos
-  * Meu Blog
-
-
-<h4 align="center"> :bowtie: </h4>
+:mortar_board:
